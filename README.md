@@ -17,6 +17,16 @@
   </p>
 </div>
 
+## NOTICE FOR ANYONE THAT READS
+All credits still go to them, this was mainly just for myself. Running an older branch which used to be called v12.0.0-dev..
+Patching fixes in later releases while not having managers introduced.
+
+
+
+
+
+
+
 ## Table of contents
 - [About](#about)
 - [Installation](#installation)
