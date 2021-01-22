@@ -81,7 +81,7 @@ class GuildMember extends Base {
     if (data.joined_at) this.joinedTimestamp = new Date(data.joined_at).getTime();
     if (data.premium_since) this.premiumSinceTimestamp = new Date(data.premium_since).getTime();
 
-    if (data.user) this.user = this.guild.client.users.add(data.user);
+    if (data.user) this.user = this.client.users.add(data.user);
     if (data.roles) this._roles = data.roles;
   }
 
